@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1f1f1f;
+    color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+}
+
+h1, h2 {
+    color: #ffd700; /* Gold color */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #00ffcc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Project Cards */
+.project-cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.card h3 {
+    color: #ffd700;
+}
+
+.card p {
+    color: #f4f4f4;
+}
+
+.card span {
+    display: block;
+    color: #ffd700;
+    margin-bottom: 10px;
+}
+
+.tech-tags {
+    margin-bottom: 20px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #00ffcc;
+    color: #1f1f1f;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+
+.project-link {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+}
