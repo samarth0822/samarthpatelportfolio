@@ -4,61 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samarth Patel Portfolio</title>
-    <link rel="stylesheet" href="style.css"> <!-- Linking the CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Samarth Patel's Portfolio</h1>
+        <!-- Navigation Bar with Dropdown -->
         <nav>
-            <ul>
-                <li><a href="#projects">Projects</a></li>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Pages</a>
+                    <div class="dropdown-content">
+                        <a href="about-me.html">About Me</a>
+                        <a href="preview-of-work.html">Preview of My Work</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </li>
                 <li><a href="resume.html">Resume</a></li>
-                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-cards">
-            <!-- Card 1 -->
-            <div class="card">
-                <h3>Customer Churn Prediction</h3>
-                <p>A machine learning model to predict customer churn.</p>
-                <span>2024</span>
-                <div class="tech-tags">
-                    <span class="tag">Python</span>
-                    <span class="tag">SQL</span>
-                    <span class="tag">Pandas</span>
-                </div>
-                <a href="#" class="project-link">View Project</a>
-            </div>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Hi, I'm Samarth Patel, a passionate data science enthusiast currently pursuing my Master of Science in Information Technology and Management at The University of Texas at Dallas. My fascination with data science stems from my curiosity to understand the world through data and uncover patterns that drive meaningful insights.
+            </p>
+            <p>
+                I'm drawn to solving complex problems in predictive modeling, machine learning, and big data analytics. I aim to contribute to impactful innovations in industries such as finance, healthcare, and beyond.
+            </p>
+        </div>
+    </section>
 
-            <!-- Card 2 -->
-            <div class="card">
-                <h3>NLP-Based Document Search Engine</h3>
-                <p>A search engine that uses NLP to retrieve academic papers.</p>
-                <span>2024</span>
-                <div class="tech-tags">
-                    <span class="tag">React</span>
-                    <span class="tag">Python</span>
-                    <span class="tag">Qdrant</span>
-                </div>
-                <a href="#" class="project-link">View Project</a>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="card">
-                <h3>Speech Emotion Recognition</h3>
-                <p>Model that classifies emotions from speech using ML.</p>
-                <span>2024</span>
-                <div class="tech-tags">
-                    <span class="tag">TensorFlow</span>
-                    <span class="tag">Python</span>
-                    <span class="tag">Librosa</span>
-                </div>
-                <a href="#" class="project-link">View Project</a>
-            </div>
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Python</li>
+                <li>R</li>
+                <li>SQL</li>
+                <li>Pandas</li>
+                <li>NumPy</li>
+                <li>Tableau</li>
+                <li>TensorFlow</li>
+                <li>React</li>
+                <li>Spark</li>
+                <li>Hadoop</li>
+                <li>Power BI</li>
+            </ul>
         </div>
     </section>
 
